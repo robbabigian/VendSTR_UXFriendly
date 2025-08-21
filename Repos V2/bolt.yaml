@@ -1,0 +1,11 @@
+
+# Minimal Bolt.new config
+project:
+  name: SwiftPOD-UI-v2
+commands:
+  install: pnpm install
+  dev: pnpm dev
+  build: pnpm build
+  start: pnpm start
+env:
+  file: .env.local
